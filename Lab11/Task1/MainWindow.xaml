@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFApp.BringBackPocoyo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TV programmes" Height="300" Width="500">
+    <Grid>
+        <!-- Border control -->
+        <Border BorderBrush="Blue" BorderThickness="3" Margin="20">
+            <!-- StackPanel inside the Border -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <!-- Image 1 -->
+                <Image x:Name="image1_jpg" Source="/image1.JPG" Width="100" Height="100" Margin="10" VerticalAlignment="Top" />
+                <!-- Image 2 -->
+                <Image x:Name="image2_jpg" Source="/image2.JPG" Width="100" Height="100" Margin="10" />
+                <!-- Image 3 -->
+                <Image x:Name="image3_jpg" Source="/image3.JPG" Width="100" Height="100" Margin="10" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
