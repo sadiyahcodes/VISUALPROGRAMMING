@@ -1,0 +1,33 @@
+﻿<Window x:Class="WPFComboBoxControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="604">
+    <Grid>
+        <!-- First ComboBox -->
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="80,53,0,0" 
+                  VerticalAlignment="Top" Width="120" SelectionChanged="Combo_SelectionChanged">
+            <ComboBoxItem Content="Item #1" />
+            <ComboBoxItem Content="Item #2" />
+            <ComboBoxItem Content="Item #3" />
+        </ComboBox>
+
+        <!-- First TextBox -->
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="240,53,0,0"
+                 VerticalAlignment="Top" Width="120" Height="23" />
+
+        <!-- Second ComboBox -->
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="80,120,0,0" 
+                  VerticalAlignment="Top" Width="120" SelectionChanged="Combo1_SelectionChanged">
+            <ComboBoxItem Content="Item #1" />
+            <ComboBoxItem Content="Item #2" />
+            <ComboBoxItem Content="Item #3" />
+        </ComboBox>
+
+        <!-- Second TextBox -->
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="240,120,0,0"
+                 VerticalAlignment="Top" Width="120" Height="23" />
+    </Grid>
+</Window>
