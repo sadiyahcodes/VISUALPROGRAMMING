@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCheckBoxControl", "WPFCheckBoxControl\WPFCheckBoxControl.csproj", "{4F23B5D9-72FF-4399-8479-797D65F571DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F23B5D9-72FF-4399-8479-797D65F571DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F23B5D9-72FF-4399-8479-797D65F571DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F23B5D9-72FF-4399-8479-797D65F571DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F23B5D9-72FF-4399-8479-797D65F571DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED9588FF-5BD8-476F-BA6D-D654FE1E1209}
+	EndGlobalSection
+EndGlobal
