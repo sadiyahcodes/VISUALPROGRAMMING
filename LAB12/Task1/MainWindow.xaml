@@ -1,0 +1,14 @@
+﻿<Window x:Class="OrderInformationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Order Information" Height="300" Width="400">
+    <Grid>
+        <ComboBox ItemsSource="{Binding Addresses}" 
+                  SelectedItem="{Binding SelectedShippingAddress}" 
+                  DisplayMemberPath="Street" 
+                  Width="300" 
+                  Margin="10" 
+                  SelectionChanged="ComboBox_SelectionChanged"/>
+        <Button Content="Change Address" Width="100" Height="30" Margin="10,50,0,0" Click="ChangeAddress_Click"/>
+    </Grid>
+</Window>
